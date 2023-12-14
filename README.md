@@ -4,7 +4,7 @@
 <p align="center"> <a href="https://www.onlyakarsh.com/" target="_blank"><img alt="" src="https://img.shields.io/badge/Website-EA4C89?style=normal&logo=dribbble&logoColor=white" style="vertical-align:center" /></a> <a href="https://twitter.com/only_akarsh" target="_blank"><img alt="" src="https://img.shields.io/badge/Twitter-1DA1F2?style=normal&logo=twitter&logoColor=white" style="vertical-align:center" /></a> <a href="https://twitter.com/only_akarsh" target="_blank"><img alt="" src="https://img.shields.io/badge/Instagram-E4405F?style=normal&logo=instagram&logoColor=white" style="vertical-align:center" /></a> <a href="https://www.linkedin.com/in/akarsh3053/}" target="_blank"><img alt="" src="https://img.shields.io/badge/LinkedIn-0077B5?style=normal&logo=linkedin&logoColor=white" style="vertical-align:center" /></a> </p>
 
 # Description
-A developer portfolio built using React and 3JS to showcase skills and projects with animated 3D components. The project is built on vite for easy deployment and uses reusable higher-order components, the email form uses Email.js for delivering all the form submissions directly to your mailbox.
+This is a developer's portfolio that utilizes React and 3JS to highlight their abilities and projects through animated 3D elements. The portfolio is constructed with Vite, facilitating straightforward deployment, and incorporates reusable higher-order components. The email form is integrated with Email.js, ensuring all form submissions are directly sent to your email.
 
 # Features
 - 3D Models
