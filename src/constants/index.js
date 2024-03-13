@@ -5,8 +5,8 @@ import {
   web,
   javascript,
   cpp,
-  html,
-  css,
+  typescript,
+  next,
   reactjs,
   selenium,
   tailwind,
@@ -19,6 +19,9 @@ import {
   linux,
   insight,
   flappyAI,
+  IRIS,
+  AutoBot,
+  OwlDone,
 } from "../assets";
 
 export const navLinks = [
@@ -57,36 +60,40 @@ const services = [
 
 const technologies = [
   {
-    name: "HTML 5",
-    icon: html,
-  },
-  {
-    name: "CSS 3",
-    icon: css,
-  },
-  {
     name: "JavaScript",
     icon: javascript,
-  },
-  {
-    name: "C++",
-    icon: cpp,
-  },
-  {
-    name: "React JS",
-    icon: reactjs,
-  },
-  {
-    name: "Selenium",
-    icon: selenium,
   },
   {
     name: "Tailwind CSS",
     icon: tailwind,
   },
   {
+    name: "Next JS",
+    icon: next,
+  },
+  {
+    name: "React JS",
+    icon: reactjs,
+  },
+  {
+    name: "TypeScript",
+    icon: typescript,
+  },
+  {
     name: "Node JS",
     icon: nodejs,
+  },
+  {
+    name: "C++",
+    icon: cpp,
+  },
+  {
+    name: "Python",
+    icon: python,
+  },
+  {
+    name: "Selenium",
+    icon: selenium,
   },
   {
     name: "MongoDB",
@@ -101,16 +108,75 @@ const technologies = [
     icon: git,
   },
   {
-    name: "Python",
-    icon: python,
-  },
-  {
     name: "docker",
     icon: docker,
   },
 ];
 
 const projects = [
+  {
+    name: "OwlDone",
+    description:
+      "OwlDone is a next and react-based web app that can be used as a collaborative SAAS platform for project management and task planning, increasing team's productivity.",
+    tags: [
+      {
+        name: "next-JS",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "prisma",
+        color: "green-text-gradient",
+      },
+      {
+        name: "typescript",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: OwlDone,
+    source_code_link: "https://github.com/Akarsh3053/OwlDone",
+  },
+  {
+    name: "AutoBot",
+    description:
+      "This interactive Web-based AutoML app can train machine learning models with minimum effort, allowing users to develop Machine Learning apps quickly.",
+    tags: [
+      {
+        name: "AutoML",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "streamlit",
+        color: "green-text-gradient",
+      },
+      {
+        name: "PyCaret",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: AutoBot,
+    source_code_link: "https://github.com/Akarsh3053/AutoBot",
+  },
+  {
+    name: "IRIS",
+    description:
+      "It is a Computer Vision application that can be used to  deploy Computer vision tools that can harness the power of existing camera systems by automating tracking and logging.",
+    tags: [
+      {
+        name: "computer-vision",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "YOLO v8",
+        color: "green-text-gradient",
+      },
+      {
+        name: "python",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: IRIS,
+    source_code_link: "https://github.com/Akarsh3053/IRIS",
+  },
   {
     name: "Insight",
     description:
