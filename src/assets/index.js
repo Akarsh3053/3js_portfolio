@@ -7,11 +7,11 @@ import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
 
-import css from "./tech/css.png";
+import next from "./tech/Next.png";
 import docker from "./tech/docker.png";
 import python from "./tech/python.png";
 import git from "./tech/git.png";
-import html from "./tech/html.png";
+import typescript from "./tech/TypeScript.png";
 import javascript from "./tech/javascript.png";
 import mongodb from "./tech/mongodb.png";
 import nodejs from "./tech/nodejs.png";
@@ -24,6 +24,9 @@ import linux from "./tech/linux.png";
 import insight from "./insight.jpg";
 import photopix from "./photopix.png";
 import flappyAI from "./flappyAI.jpg";
+import IRIS from "./IRIS.jpg";
+import AutoBot from "./AutoBot.png";
+import OwlDone from "./owldone.png";
 
 export {
   logo,
@@ -34,11 +37,11 @@ export {
   github,
   menu,
   close,
-  css,
+  next,
   docker,
   python,
   git,
-  html,
+  typescript,
   javascript,
   mongodb,
   nodejs,
@@ -50,4 +53,7 @@ export {
   insight,
   photopix,
   flappyAI,
+  IRIS,
+  AutoBot,
+  OwlDone,
 };
