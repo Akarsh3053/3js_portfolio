@@ -1,6 +1,6 @@
-import React, { useRef, useState } from "react";
 import { motion } from "framer-motion";
 import emailjs from "@emailjs/browser";
+import React, { useRef, useState } from "react";
 
 import { styles } from "../styles";
 import { EarthCanvas } from "./canvas";
@@ -33,28 +33,23 @@ const Contact = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     setLoading(true);
-
-
-
-
-
     emailjs
-      .send(
-        service_g4a1kig,
-        template_6c1nees,
-        {
-          from_name: form.name,
-          to_name: "Akarsh Bajpai",
-          from_email: form.email,
-          to_email: "onlyakarsh@gmail.com",
-          message: form.message,
-        },
-        Zqbt0KdyiJ6MSrYRy
+    .send(
+      'service_g4a1kig',
+      'template_6c1nees',
+      {
+        from_name: form.name,
+        to_name: "Akarsh Bajpai",
+        from_email: form.email,
+        to_email: "onlyakarsh@gmail.com",
+        message: form.message,
+      },
+      'Zqbt0KdyiJ6MSrYRy'
       )
       .then(
         () => {
           setLoading(false);
-          alert("Thank you. I will get back to you as soon as possible.");
+          alert("Thank you. I will get back to you soon...")
 
           setForm({
             name: "",
@@ -85,7 +80,7 @@ const Contact = () => {
         <form
           ref={formRef}
           onSubmit={handleSubmit}
-          className='mt-12 flex flex-col gap-8'
+          className='mt-10 flex flex-col gap-8'
         >
           <label className='flex flex-col'>
             <span className='text-white font-medium mb-4'>Your Name</span>
@@ -112,7 +107,7 @@ const Contact = () => {
           <label className='flex flex-col'>
             <span className='text-white font-medium mb-4'>Your Message</span>
             <textarea
-              rows={7}
+              rows={5}
               name='message'
               value={form.message}
               onChange={handleChange}
