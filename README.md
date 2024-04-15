@@ -4,7 +4,7 @@
 <p align="center"> <a href="https://www.onlyakarsh.com/" target="_blank"><img alt="" src="https://img.shields.io/badge/Website-EA4C89?style=normal&logo=dribbble&logoColor=white" style="vertical-align:center" /></a> <a href="https://twitter.com/only_akarsh" target="_blank"><img alt="" src="https://img.shields.io/badge/Twitter-1DA1F2?style=normal&logo=twitter&logoColor=white" style="vertical-align:center" /></a> <a href="https://twitter.com/only_akarsh" target="_blank"><img alt="" src="https://img.shields.io/badge/Instagram-E4405F?style=normal&logo=instagram&logoColor=white" style="vertical-align:center" /></a> <a href="https://www.linkedin.com/in/akarsh3053/}" target="_blank"><img alt="" src="https://img.shields.io/badge/LinkedIn-0077B5?style=normal&logo=linkedin&logoColor=white" style="vertical-align:center" /></a> </p>
 
 # Description
-This is a developer's portfolio that utilizes React and 3JS to highlight their abilities and projects through animated 3D elements. The portfolio is constructed with Vite, facilitating straightforward deployment, and incorporates reusable higher-order components. The email form is integrated with Email.js, ensuring all form submissions are directly sent to your email.
+This developer's portfolio utilizes React and 3JS to highlight their abilities and projects through animated 3D elements. The portfolio is constructed with Vite, facilitating straightforward deployment, and incorporates reusable higher-order components. The email form is integrated with Email.js, ensuring all form submissions are directly sent to your email.
 
 # Features
 - 3D Models
@@ -20,16 +20,16 @@ This is a developer's portfolio that utilizes React and 3JS to highlight their a
 
  # Setup and run:
 - Step 1: Clone the project.
-- Step 2: Open terminal in the project directory and run the following command to install dependencies -
+- Step 2: Open the terminal in the project directory and run the following command to install dependencies -
 ```bash
 npm install --legacy-peer-deps
 ```
 - Step 3: Make the necessary changes in the information and names.
-- Step 4: Once ready run the following command to launch local server -
+- Step 4: Once ready run the following command to launch the local server -
 ```bash
 npm run dev
 ```
 
 ## Check the live preview here
-<a href="https://3d-portfolio-five-steel.vercel.app/" target="_blank"><img src="https://www.animatedimages.org/data/media/1096/animated-click-here-sign-and-button-image-0042.gif" /></a>
+<a href="https://akarsh-3js.vercel.app/" target="_blank"><img src="https://www.animatedimages.org/data/media/1096/animated-click-here-sign-and-button-image-0042.gif" /></a>
 
